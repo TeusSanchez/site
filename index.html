@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <!--acesse o site "W3 school" para ajudar nas duvidas.-->
+<!--acesse o site "W3 school" para ajudar nas duvidas.-->
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
                 <li> <a href="#sobre">sobre mim</a></li>
                 <li><a href="#projetos">projetos</a></li>
                 <li><a href="#contato">contato</a></li>
-                <li> <a href="https://google.com.br/" target="_blank">google</a></li>
+                <li> <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">Se liga aqui</a></li>
                 <!--esse "#" serve como marcador, referencia, indentificador para cada sessçao. -->
                 <!--"target="_blank " serve para nos redirecionar para uma nova aba, sem alterar a atual.-->
                 <!--<li> <a href="https://google.com.br">google</a></li> exemplo de como colocar link externo no site-->
@@ -31,8 +31,8 @@
         <!-- "section" serve para dar uma nova sessão, separar as frases de um topico para outro-->
         <h2>sobre mim</h2>
 
-        <img src="https://cdn.wallpapersafari.com/48/8/c8Sgo3.jpg" alt=""
-            title="imagem de perfil de mateus" height="300" >
+        <img src="https://cdn.wallpapersafari.com/48/8/c8Sgo3.jpg" alt="" title="imagem de perfil de mateus"
+            height="300">
         <!--"title" aparece informação do item quando passamos o cursor do mouse.-->
         <!-- "alt"  é a mensagem de falha de carregamento da imagem ou erro do mesmo-->
 
@@ -66,6 +66,37 @@
             </article>
 
         </section>
+        <section id="habilidades">
+            <h2>habilidades e tecnologias</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tecnologia</th>
+                        <th>nível</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+
+                <tbody> <!--o corpo precisa conversar com a cabeça, cada intem corresponde a tal-->
+                    <tr>
+                        <td>HTML</td>
+                        <td>Iniciante</td>
+                        <td>Capaz de contruir estruturas de páginas web semanticas e responsivas</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Intermedio</td>
+                        <td>experiencia com flex box</td>
+                    </tr>
+                </tbody>
+                <!--"tbody" corpo da tabela-->
+
+            </table>
+            <!--"table" cria uma tabela-->
+            <!--"thead" cria um grupo de colunas-->
+            <!--"tr" define uma nova linha da tabela-->
+            <!--"th" define as colunas-->
+        </section>
     </section>
 
     <footer> <!--roda pé do site-->
@@ -80,10 +111,10 @@
             <form action="">
 
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome" required>  <br>
+                <input type="text" id="nome" name="nome" required> <br>
                 <!--input serve para escrever no site.-->
                 <!-- "label" campo ao lado do campo que sera digitado-->
-                 <!--"required" torna o campo obrigatório, deve ser preenchido com algo.-->
+                <!--"required" torna o campo obrigatório, deve ser preenchido com algo.-->
 
                 <label for="email">E-mail: </label>
                 <input type="email" id="email" name="email" required> <br>
@@ -101,7 +132,7 @@
                 <!-- nesa parte, nos permite escolher o tópico que queremos tratar-->
 
                 <label for="mensagem">Mensagem: </label>
-                <textarea name="mensagem" id="mensagem" cols="15" rows="10" required ></textarea> <br>
+                <textarea name="mensagem" id="mensagem" cols="15" rows="10" required></textarea> <br>
                 <!-- caixinha de texto.-->
 
                 <input type="checkbox" id="inscricao" name="inscricao">
